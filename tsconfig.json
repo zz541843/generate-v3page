@@ -1,0 +1,28 @@
+{
+  "include": [
+    "**/*"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "allowJs": true,
+    "strict": true,
+    //        "types": ["element-plus/global"]
+    "importsNotUsedAsValues": "remove",
+    "isolatedModules": true,
+    "preserveValueImports": true,
+    "skipLibCheck": true,
+    "types": ["unplugin-vue-define-options"],
+      "allowSyntheticDefaultImports": true
+  },
+  "references": [
+    {
+      "path": "./tsconfig.vite-config.json"
+    }
+  ],
+}
